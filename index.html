@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No Limit Club NLC</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<h1>No Limit Club - NLC</h1>
+	<p>Bienvenue au projet de site web IceBreaker de No Limit Club (HIS). Chaque modification de la page doit être liée à la version précédente.</p>
+	<h2>Éléments à ajouter :</h2>
+	<ul>
+		<li><s>Créer une page principale basique</s><a href="#" download="./index.html">index.html</a></li>
+		<li>
+			<s>Formater la page avec CSS.</s><a href="#" download="./style.css">style.css</a> 
+			<label class="switch">
+				<input type="checkbox" checked>
+				<span class="slider"></span>
+			</label>
+		</li>
+		<li><s>Modifier / Ajouter un arrière-plan</s> <a href="#" download="./Spectrum-Gradient.svg">Spectrum-Gradient.svg</a></li>
+		<li><s>Ajouter une nouvelle police</s> <a href="#" download="./Whitney-SemiboldItalic.otf">Whitney-SemiboldItalic.otf</a></li>
+		<li>Ajouter du JavaScript interactif</li>
+	</ul>
+	<p><a href="https://nolimitclub.com">Venez vous inscrire sur le site de NO LIMIT CLUB pour mettre de la couleur dans votre code !</a></p>
+	<img src="OIP.jpeg"/>
+	
+	<p>© By AmineAitm étudiant à HIS University </p>
+	<script>
+		var link = document.querySelector("link"), checkbox = document.querySelector('[type="checkbox"]');
+		checkbox.onclick = e => {
+			if (checkbox.checked) {
+				link.href = 'style.css';
+			} else {
+				link.href = '';
+			}
+		}
+	</script>
+</body>
+</html>
